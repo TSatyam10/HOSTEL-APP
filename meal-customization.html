@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Meal Customization</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header>
+    <h1>Meal Customization</h1>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="dashboard.html">Dashboard</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Customize Your Meal</h2>
+    <form class="form-box">
+      <label for="meal-type">Meal Type:</label>
+      <select id="meal-type" name="meal-type">
+        <option value="breakfast">Breakfast</option>
+        <option value="lunch">Lunch</option>
+        <option value="dinner">Dinner</option>
+      </select>
+
+      <label for="preferences">Meal Preferences:</label>
+      <textarea id="preferences" name="preferences" rows="4" cols="50"></textarea>
+
+      <button type="submit">Submit Request</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Hostel Management System</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

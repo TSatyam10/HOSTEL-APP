@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Daily Mess Attendance</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header>
+    <h1>Daily Mess Attendance</h1>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="admin-panel.html">Admin Panel</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Record Today's Attendance</h2>
+    <form class="form-box">
+      <label for="regno">Student Reg. No:</label>
+      <input type="text" id="regno" name="regno" required />
+
+      <label for="meal">Meal Type:</label>
+      <select id="meal" name="meal">
+        <option value="breakfast">Breakfast</option>
+        <option value="lunch">Lunch</option>
+        <option value="dinner">Dinner</option>
+      </select>
+
+      <button type="submit">Mark Attendance</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Hostel Management System</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
